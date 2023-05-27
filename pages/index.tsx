@@ -66,12 +66,12 @@ const Index = () => {
   return (
     <Container>
       <div className='text-center mt-2'>
-        <h2>RexNetlink By Telegram/Rexnetwork</h2>
+        <h2>Tg:Rexnetwork™</h2>
       </div>
 
       <Form onSubmit={handleGetDetail}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Enter URL Terabox</Form.Label>
+          <Form.Label>Enter URL Terabox (Join Telegram/Rexnetwork)</Form.Label>
           <Form.Control type="text" placeholder="URL" onChange={(e) => setURL(e.target.value)} />
           <Form.Text className="text-muted">
             https://www.terabox.com/s/1abcdefgxxxx.
